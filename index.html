@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Paint</title>
+</head>
+<body>
+
+   <div class="container">
+    <section class="tools-board">
+        <div class="row">
+            <label class="title">Formas :3</label>
+            <ul class="options">
+                <li class="option">
+                    <img src="icons/quadrado.png" alt="" width="15px" height="15px">
+                    <span>Retângulo</span>
+                </li>
+                <li class="option">
+                    <img src="icons/circulo.png" alt="" width="15px" height="15px">
+                    <span>circulo</span>
+                </li>
+                <li class="option">
+                    <img src="icons/triangulo.png" alt="" width="15px" height="15px">
+                    <span>triangulo</span>
+                </li>
+                <li class="option">
+                    <input type="checkbox" id="preencher">
+                    <label for="">Preencher</label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="row">
+            <label class="title">Opções :0</label>
+            <ul class="options">
+                <li class="option active">
+                    <img src="icons/pincel.png" alt="" width="15px" height="15px">
+                    <span>pincel</span>
+                </li>
+                <li class="option">
+                    <img src="icons/borracha.png" alt="" width="15px" height="15px">
+                    <span>borracha</span>
+                </li>
+                <li class="option">
+                    <input type="range" id="size-slider">
+                </li>
+            </ul>
+        </div>
+
+        <div class="row colors">
+            <label class="title">Cores ;)</label>
+            <ul class="options">
+               <li class="option"></li>
+               <li class="option"></li>
+               <li class="option"></li>
+               <li class="option"></li>
+               <li class="option"></li>
+            </ul>
+        </div>
+
+        <div class="row">
+           <button class="clear-canvas">Limpar tela</button>
+           <button class="save-img">Salvar imagem</button>
+        </div>
+
+    </section>
+    <section class="drawing-board"></section>
+   </div> 
+
+</body>
+</html>
